@@ -1,0 +1,9 @@
+drop table ky_db.order
+drop table ky_db.reorder
+drop table ky_db.inventory
+drop table ky_db.product
+drop table ky_db.shipping
+drop table ky_db.store
+drop table ky_db.manufacturer
+drop table ky_db.type
+drop table ky_db.customer
