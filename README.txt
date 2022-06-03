@@ -58,3 +58,7 @@ How to excute
 1. 프로그램을 실행하면 결과를 확인하길 원하는 type의 번호를 입력한다.
 2. 결과를 확인한 이후에 subtype이 있는 type인 경우에 subtype의 번호를 입력한다.
 3. 다른 type도 확인하고 싶다면 다시 type을 입력하고 아닌 경우엔 0을 입력해 종료한다.
+
+MySQL Server 8.0 64bit
+MySQL ODBC 8.0 64bit
+MySQL Connector 8.0 64bit
