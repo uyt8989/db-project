@@ -1,4 +1,4 @@
-﻿CSE4110 – Database System
+CSE4110 – Database System
 Project 2
 20171695 유경연
 
@@ -10,7 +10,7 @@ Requirments
 Description of DB
 - Host : localhost
 - User : root
-- Schema name : ky_db
+- DB name : ky_db
 - Password : 1234
 
 Queries
@@ -51,14 +51,16 @@ Type 3과 거의 동일하지만 기준만 달리하여 query를 작성했다.
 - Type 7 : 각 고객의 저번 달 영수증을 만든다.
 각 고객의 저번 달 구매 금액을 합하는 query를 작성했다.
 
+Codes
+1. 20171659.cpp : main 함수가 있는 파일
+2. io.cpp : 파일 입출력과 사용자에게 입력 받는 함수가 있는 파일
+3. querys.cpp : 실제로 쿼리를 구현한 파일
+
 How to excute
 0. 해당 프로그램을 실행하면 DB에 임의의 정보가 자동으로 추가된다. 
+0-0 솔루션 폴더 내에 mylibsql.dll 파일이 있어야 정상적으로 작동한다.
 0-1. 실행을 위해 솔루션 폴더 내에 CREATE.txt와 DROP.txt가 필요하다. 
-0-2. CREATE.txt는 TABLE의 생성과 정보 입력, DROP.txt TABLE의 삭제에 사용된다.
+0-2. CREATE.txt는 TABLE의 생성과 정보 입력, DROP.txt는 TABLE의 삭제에 사용된다.
 1. 프로그램을 실행하면 결과를 확인하길 원하는 type의 번호를 입력한다.
 2. 결과를 확인한 이후에 subtype이 있는 type인 경우에 subtype의 번호를 입력한다.
 3. 다른 type도 확인하고 싶다면 다시 type을 입력하고 아닌 경우엔 0을 입력해 종료한다.
-
-MySQL Server 8.0 64bit
-MySQL ODBC 8.0 64bit
-MySQL Connector 8.0 64bit
